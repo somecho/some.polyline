@@ -1,4 +1,12 @@
 (ns some.polyline
+  "Helper functions for dealing with 2D polylines. A polyline is
+  just a vector of 2D (x y) vectors.
+
+  **Example:**
+  A polyline with 4 vertices.
+  ```clojure
+  [[0 0][0 1][0 2][0 3]]
+  ```"
   (:require [some.vec :as vec]))
 
 (defn scale
